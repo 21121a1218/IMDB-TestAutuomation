@@ -113,8 +113,8 @@ public class IMDbTestCases {
     public static void main(String[] args) {
         try {
             playTrailer();
-            //captureRating();
-            //recentlyVisited();
+            captureRating();
+            recentlyVisited();
         } catch (Exception e) {
             System.err.println("Error in main execution: " + e.getMessage());
         }
